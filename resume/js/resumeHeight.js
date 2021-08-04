@@ -1,5 +1,3 @@
-const { ajax } = require("jquery");
-
 var iframeDoc;
 var sideNav;
 function OnResumeIframeLoad(){    
