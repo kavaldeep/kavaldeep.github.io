@@ -1,3 +1,5 @@
+const { ajax } = require("jquery");
+
 var iframeDoc;
 var sideNav;
 function OnResumeIframeLoad(){    
@@ -119,3 +121,22 @@ function MoveNavBarWithScroll(){
     }
     
 }
+
+const data = {
+    "name": "John Doe",
+}
+
+fetch("https://asptestk.azurewebsites.net/home/statPortfolio", {
+    method: "POST",
+    body: JSON.stringify(data),
+    headers: {
+        "Content-Type": "application/json",
+    },
+})
+    .then(response => response.json())
+    .then(json => {
+        if (json.success) {
+            console.log(json.message);
+        }
+    }
+);
