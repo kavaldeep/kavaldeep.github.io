@@ -119,8 +119,3 @@ function MoveNavBarWithScroll(){
     }
     
 }
-
-const data = {
-    "name": "John Doe",
-}
-
