@@ -23,7 +23,7 @@ const Projects = {
             SmallDescription: "Nodejs , React , MongoDb , HTML , CSS , JQUERY , go.js , BootStrap",
             LargeDescription: "Memorising is a crucial first step in learning.The faster you memorise, the quicker you learn.The aim of this website is to help you memorize as quickly as possible. To make it short, the mindmap tries to mimic associative thinking's path.  In a mindmap, we associate a subject with each word, which allows us to quickly learn a topic and recall it if necessary.",
             NoOfProjectImages: 1,
-            DownloadLink: "http://mindmapk.azurewebsites.net/login",
+            DownloadLink: "https://affectionate-lamport-5ff38c.netlify.app",
         },
         TimeManager: {
             ID: "TimeManager",
